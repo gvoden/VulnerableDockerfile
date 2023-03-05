@@ -1,2 +1,2 @@
-FROM php:8-apache
+FROM php:cli-buster
 RUN docker-php-ext-install mysqli pdo pdo_mysql
